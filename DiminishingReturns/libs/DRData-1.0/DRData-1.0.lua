@@ -82,15 +82,6 @@ Data.spells = {
 	-- Angered Earth
 	[36213] = "taunt",
 	
-	--[[ DISORIENTS ]]--
-	-- Dragon's Breath
-	[31661] = "dragonbreath",
-	[33041] = "dragonbreath",
-	[33042] = "dragonbreath",
-	[33043] = "dragonbreath",
-	[42949] = "dragonbreath",
-	[42950] = "dragonbreath",
-	
 	-- Hungering Cold
 	[49203] = "disorient",
 	
@@ -99,7 +90,15 @@ Data.spells = {
 	[2070] = "disorient",
 	[11297] = "disorient",
 	[51724] = "disorient",
-	
+
+	-- Dragon's Breath
+	[31661] = "dragonbreath",
+	[33041] = "dragonbreath",
+	[33042] = "dragonbreath",
+	[33043] = "dragonbreath",
+	[42949] = "dragonbreath",
+	[42950] = "dragonbreath",
+
 	-- Gouge
 	[1776] = "disorient",
 		
@@ -141,9 +140,6 @@ Data.spells = {
 	
 	-- Repentance
 	[20066] = "disorient",
-	
-	-- panda
-	[316443] = "disorient",
 		
 	--[[ SILENCES ]]--
 	-- Nether Shock
@@ -152,21 +148,12 @@ Data.spells = {
 	
 	-- Garrote
 	[1330] = "silence",
-	
-	-- Arcane Torrent (Energy version)
-	[316418] = "silence",
-	
-	-- Arcane Torrent (Mana version)
-	[316421] = "silence",
-	
-	-- Arcane Torrent (Runic power version)
-	[302387] = "silence",
-	
-	-- Arcane Torrent
-	[316419] = "silence",
-	
-	-- Arcane Torrent
-	[316420] = "silence",
+
+    -- Arcane Torrent
+    [375001 ] = "silence",
+
+    -- Arcane Torrent
+    [316420] = "silence",
 	
 	-- Silence
 	[15487] = "silence",
@@ -250,90 +237,87 @@ Data.spells = {
 
 	--[[ CONTROL STUNS ]]--
 	-- Intercept (Felguard)
-	[25274] = "ctrlstun",
-	[30153] = "ctrlstun",
-	[30195] = "ctrlstun",
-	[30197] = "ctrlstun",
-	[47995] = "ctrlstun",
-	
-	-- Wolf stuns (shaman pets)
-	[58861] = "ctrlstun",
-	
-	-- Ravage
-	[50518] = "ctrlstun",
-	[53558] = "ctrlstun",
-	[53559] = "ctrlstun",
-	[53560] = "ctrlstun",
-	[53561] = "ctrlstun",
-	[53562] = "ctrlstun",
-	
-	-- Sonic Blast
-	[50519] = "ctrlstun",
-	[53564] = "ctrlstun",
-	[53565] = "ctrlstun",
-	[53566] = "ctrlstun",
-	[53567] = "ctrlstun",
-	[53568] = "ctrlstun",
-	
-	-- Concussion Blow
-	[12809] = "ctrlstun",
-	
-	-- Shockwave
-	[46968] = "ctrlstun",
-	
-	-- Hammer of Justice
-	[853] = "ctrlstun",
-	[5588] = "ctrlstun",
-	[5589] = "ctrlstun",
-	[10308] = "ctrlstun",
+    [25274] = "ctrlstun",
+    [30153] = "ctrlstun",
+    [30195] = "ctrlstun",
+    [30197] = "ctrlstun",
+    [47995] = "ctrlstun",
 
-	-- Bash
-	[5211] = "ctrlstun",
-	[6798] = "ctrlstun",
-	[8983] = "ctrlstun",
-	
-	-- Intimidation
-	[19577] = "ctrlstun",
+    -- Wolf stuns (shaman pets)
+    [58861] = "ctrlstun",
 
-	-- Maim
-	[22570] = "ctrlstun",
-	[49802] = "ctrlstun",
+    -- Ravage
+    [50518] = "ctrlstun",
+    [53558] = "ctrlstun",
+    [53559] = "ctrlstun",
+    [53560] = "ctrlstun",
+    [53561] = "ctrlstun",
+    [53562] = "ctrlstun",
 
-	-- Kidney Shot
-	[408] = "ctrlstun",
-	[8643] = "ctrlstun",
-	
-	-- DarkIronDwarf
-	[316161] = "ctrlstun",
-	
-	-- Vulpera Stun
-	[316455] = "ctrlstun",
+    -- Sonic Blast
+    [50519] = "ctrlstun",
+    [53564] = "ctrlstun",
+    [53565] = "ctrlstun",
+    [53566] = "ctrlstun",
+    [53567] = "ctrlstun",
+    [53568] = "ctrlstun",
 
-	-- War Stomp
-	[316386] = "ctrlstun",
+    -- Concussion Blow
+    [12809] = "ctrlstun",
 
-	-- Intercept
-	[20252] = "ctrlstun",
-	
-	-- Deep Freeze
-	[44572] = "ctrlstun",
-			
-	-- Shadowfury
-	[30283] = "ctrlstun", 
-	[30413] = "ctrlstun",
-	[30414] = "ctrlstun",
-	
-	-- Holy Wrath
-	[2812] = "ctrlstun",
-	
-	-- Inferno Effect
-	[22703] = "ctrlstun",
-	
-	-- Demon Charge
-	[60995] = "ctrlstun",
-	
-	-- Gnaw (Ghoul)
-	[47481] = "ctrlstun",
+    -- Shockwave
+    [46968] = "ctrlstun",
+
+    -- Hammer of Justice
+    [853] = "ctrlstun",
+    [5588] = "ctrlstun",
+    [5589] = "ctrlstun",
+    [10308] = "ctrlstun",
+
+    -- Bash
+    [5211] = "ctrlstun",
+    [6798] = "ctrlstun",
+    [8983] = "ctrlstun",
+
+    -- Intimidation
+    [19577] = "ctrlstun",
+
+    -- Maim
+    [22570] = "ctrlstun",
+    [49802] = "ctrlstun",
+
+    -- Kidney Shot
+    [408] = "ctrlstun",
+    [8643] = "ctrlstun",
+
+    -- Табуретка
+    [375039] = "ctrlstun",
+    [374994] = "ctrlstun",
+    [375010] = "ctrlstun",
+
+
+    -- Intercept
+    [20252] = "ctrlstun",
+
+    -- Deep Freeze
+    [44572] = "ctrlstun",
+
+    -- Shadowfury
+    [30283] = "ctrlstun",
+    [30413] = "ctrlstun",
+    [30414] = "ctrlstun",
+
+    -- Holy Wrath
+    [2812] = "ctrlstun",
+
+    -- Inferno Effect
+    [22703] = "ctrlstun",
+
+    -- Demon Charge
+    [60995] = "ctrlstun",
+
+    -- Gnaw (Ghoul)
+    [47481] = "ctrlstun",
 	
 	--[[ RANDOM STUNS ]]--
 	-- Impact

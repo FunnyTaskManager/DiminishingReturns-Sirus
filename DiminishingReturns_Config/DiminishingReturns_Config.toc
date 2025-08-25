@@ -1,13 +1,14 @@
 ## Interface: 30300
 ## Title: Diminishing Returns - configuration UI
-## Notes: |@Version: 3@|Diminishing returns configuration interface.
+## Notes: |@Version: 4@|Diminishing returns configuration interface.
 ## Author: Adirelle
-## Version: v1.0-beta-12
+## Version: v1.2
 ## X-Date: 2010-07-06T12:10:41Z
 ## X-Curse-Packaged-Version: v1.0-beta-12
 ## X-Curse-Project-Name: DiminishingReturns
 ## X-Curse-Project-ID: diminishingreturns
 ## X-Curse-Repository-ID: wow/diminishingreturns/mainline
+## X-Sirus-Update: https://github.com/Qblolz/DiminishingReturns-Sirus/tree/master/DiminishingReturns_Config
 
 ## RequiredDeps: DiminishingReturns
 ## OptionalDeps: AceGUI-3.0-SharedMediaWidgets

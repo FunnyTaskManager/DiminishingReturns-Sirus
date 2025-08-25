@@ -3,13 +3,14 @@
 ## X-Curse-Project-Name: DiminishingReturns
 ## X-Curse-Project-ID: diminishingreturns
 ## X-Curse-Repository-ID: wow/diminishingreturns/mainline
+## X-Sirus-Update: https://github.com/Qblolz/DiminishingReturns-Sirus/tree/master/DiminishingReturns
 
 ## Title: Diminishing Returns
-## Notes: |@Version: 3@|Attach diminishing return icons to unit frames.
-## Notes-zhCN: |@Version: 3@|在单位框体附着递减规则图标。
-## Notes-zhTW: |@Version: 3@|在單位框體附著遞減規則圖示。
+## Notes: |@Version: 4@|Attach diminishing return icons to unit frames.
+## Notes-zhCN: |@Version: 4@|在单位框体附着递减规则图标。
+## Notes-zhTW: |@Version: 4@|在單位框體附著遞減規則圖示。
 ## Author: Adirelle
-## Version: v1.0
+## Version: v1.13
 ## X-Date: 2010-07-06T12:10:41Z
 
 ## SavedVariables: DiminishingReturnsDB
@@ -39,6 +40,7 @@ support\ag_UnitFrames.lua
 support\Blizzard.lua
 support\Blizzard_ArenaUI.lua
 support\Gladius.lua
+support\Gladdy.lua
 support\oUF.lua
 support\Nameplates.lua
 support\PitBull4.lua

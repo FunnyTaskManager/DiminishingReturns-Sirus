@@ -19,6 +19,7 @@ addon:RegisterAddonSupport('ShadowedUnitFrames', function()
 	db = addon.db:RegisterNamespace('ShadowedUnitFrames', {profile={
 		target = defaults,
 		focus = defaults,
+		player = defaults,
 		arena = defaults, -- should find better one
 	}})
 
@@ -32,6 +33,7 @@ addon:RegisterAddonSupport('ShadowedUnitFrames', function()
 
 	RegisterFrame('target')
 	RegisterFrame('focus')
+	RegisterFrame('player')
 	
 end)
 
