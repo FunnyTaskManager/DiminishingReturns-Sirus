@@ -1,6 +1,6 @@
 ## Interface: 30300
 ## Title: Diminishing Returns - configuration UI
-## Notes: |@Version: 4@|Diminishing returns configuration interface.
+## Notes: |@Version: 5@|Diminishing returns configuration interface.
 ## Author: Adirelle
 ## Version: v1.2
 ## X-Date: 2010-07-06T12:10:41Z
