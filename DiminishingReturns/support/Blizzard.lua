@@ -86,6 +86,13 @@ addon:RegisterAddonSupport('FrameXML', function()
 			yOffset = 0,
 		}
 	}})
+
+	-- После контроля враждебный неймплейт пропадает. Иконка остаётся на фрейме цели и фокуса.
+	if not db.profile.trackControlledTarget then
+		db.profile.target.enabled = true
+		db.profile.focus.enabled = true
+		db.profile.trackControlledTarget = true
+	end
 	
 	local function RegisterFrame(name, unit)
 		local function GetDatabase() return db.profile[unit], db end

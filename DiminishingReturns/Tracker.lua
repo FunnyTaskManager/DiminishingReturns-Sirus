@@ -168,8 +168,15 @@ local function ParseCLEU(self, _, timestamp, event, _, srcName, srcFlags, guid, 
 		end
 		return
 	end
-	-- Ignore targetted friends
-	if band(flags, CLO_REACTION_FRIENDLY) ~= 0 and not(UnitName("player") == name) and not(UnitName("party1") == name) and not(UnitName("party2") == name) and not(UnitName("party3") == name) and not(UnitName("party4") == name) and not(UnitName("party5") == name) then return end
+	-- Дружественные цели пропускаются, кроме группы и уже отслеживаемых.
+	-- Контроль над разумом делает цель дружественной, и без исключения снимается DR превращения.
+	if band(flags, CLO_REACTION_FRIENDLY) ~= 0 then
+		local mine = band(srcFlags or 0, CLO_AFFILIATION_MINE) ~= 0
+		local tracked = runningDR[guid]
+		if not mine and not tracked and not(UnitName("player") == name) and not(UnitName("party1") == name) and not(UnitName("party2") == name) and not(UnitName("party3") == name) and not(UnitName("party4") == name) and not(UnitName("party5") == name) then
+			return
+		end
+	end
 	-- Ignore any spell or event we are not interested with
 	local increase, category = CL_EVENTS[event], SPELLS[spellId] or SPELLS[spell]
 	if not increase or not category then return end
